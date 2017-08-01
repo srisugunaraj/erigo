@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Erigo</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="font-awesome-4.7.0 (1)/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Lobster|Slabo+27px" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style> 
+    .hiddenlinks { 
+display:none;
+}
+    .diamond {
+      padding:2% 0 3% 0;
+    }
+    @media (max-width:330px){
+      img {
+        margin-bottom: 10px;
+      }
+      .losange {
+        margin-bottom: 18%;
+      }
+      .row1 {
+        margin-top: 0px;
+      }
+      .diamond {
+        padding:7% 0 3% 0;
+      }
+    }
+    @media (min-width:331px) and (max-width:768px){
+      img {
+        margin-bottom: 10px;
+      }
+      .losange {
+        margin-bottom: 16%;
+      }
+      .row1 {
+        margin-top: 0px;
+      }
+      .diamond {
+        padding:7% 0 3% 0;
+      }
+    }
+    /*.row1 {
+      padding-top: 2%;
+    }
+    .row2 {
+      padding-bottom: 4%;
+    }*/
+    @media (min-width:769px) and (max-width:998px){
+      img {
+        margin-bottom: 2px;
+      }
+      .losange {
+        margin-bottom: 3%;
+      }
+    }
+.losange {
+  position: relative;
+}   
+.layout {
+  position: absolute;
+  top: 53px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  z-index: 999;
+ /* opacity: 0.5;*/
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: opacity 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: opacity 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+}
+.losange:hover .layout {
+  background: rgba(0, 0, 0, 0.5);
+}
+.layout p{
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  color:#fff;
+  margin-top:35px;
+}
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<div class="container-fluid"  style="background-color: #000;"> 
+<div class="diamond container"> 
+<div class="row row1">
+<div class="part">
+  <div class="col-md-2 col-md-push-3">
+    <div class="losange losange1">
+      <div class="los1">
+        <img src="images/experts.jpg" alt="" class="img-responsive"/>
+        <div class="layout">
+            <p>Corpporate events</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-push-1 col-md-2 col-md-push-3">
+    <div class="losange losange2">
+      <div class="los1">
+        <img src="images/experts-1.jpg" alt="" class="img-responsive"/>
+        <div class="layout">
+            <p>Wedding palnning</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-2 col-md-push-3">
+    <div class="losange losange3">
+      <div class="los1">
+        <img src="images/experts.jpg" alt="" class="img-responsive" />
+        <div class="layout">
+            <p>destination management</p>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+ </div>
+
+
+<div class="row row2">
+<div class="part">
+  <div class="col-sm-push-1 col-md-2 col-md-push-2">
+    <div class="losange losange1">
+      <div class="los1">
+        <img src="images/experts-1.jpg" alt="" class="img-responsive" />
+        <div class="layout">
+          <p>Brand Activation</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2 col-md-push-2">
+    <div class="losange losange2">
+      <div class="los1">
+        <img src="images/experts.jpg" alt="" class="img-responsive" />
+        <div class="layout">
+          <p>Birthday parties</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-push-1 col-md-2 col-md-push-2">
+    <div class="losange losange3">
+      <div class="los1">
+        <img src="images/experts-1.jpg" alt="" class="img-responsive" />
+        <div class="layout">
+          <p>Marketing Events</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-2 col-md-push-2"> 
+    <div class="losange losange4">
+      <div class="los1">
+        <img src="images/experts.jpg" />
+        <div class="layout">
+          <p>Special Events</p>
+        </div>
+      </div>
+    </div>
+     </div>
+</div>
+ </div>
+</div>
+
+ </div>
+
+
+<hr>
+<hr>  
+
+
+
+
+ <div class="container-fluid"  style="background-color: #000;background-image:  url(img/bg-1920.jpg);"> 
+<div class="diamond container"> 
+<div class="row row1">
+<div class="part">
+  <div class="col-md-2 col-md-push-3">
+    <div class="losange losange1">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive"/>
+        <div class="layout">
+            <p>celebraties management</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-push-1 col-md-2 col-md-push-3">
+    <div class="losange losange2">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive"/>
+        <div class="layout">
+            <p>dj artist management</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-2 col-md-push-3">
+    <div class="losange losange3">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive" />
+        <div class="layout">
+            <p>emcee artist</p>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+ </div>
+
+
+<div class="row row2">
+<div class="part">
+  <div class="col-sm-push-1 col-md-2 col-md-push-2">
+    <div class="losange losange1">
+      <div class="los1">
+        <img src="images/services-1.jpg" />
+        <div class="layout">
+          <p>family outings</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2 col-md-push-2">
+    <div class="losange losange2">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive" />
+        <div class="layout">
+          <p>marketing</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-push-1 col-md-2 col-md-push-2">
+    <div class="losange losange3">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive" />
+        <div class="layout">
+          <p>college festivals</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-2 col-md-push-2"> 
+    <div class="losange losange4">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive" />
+        <div class="layout">
+          <p>award ceremonies</p>
+        </div>
+      </div>
+    </div>
+     </div>
+</div>
+ </div>
+
+
+<div class="row row1 row3">
+<div class="part">
+  <div class="col-sm-push-1 col-md-2 col-md-push-3">
+    <div class="losange losange1">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive"/>
+        <div class="layout">
+            <p>get-togethers</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2 col-md-push-3">
+    <div class="losange losange2">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive"/>
+        <div class="layout">
+            <p>management</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-push-1 col-md-2 col-md-push-3">
+    <div class="losange losange3">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive" />
+        <div class="layout">
+            <p>conference</p>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+ </div>
+
+<div class="row row2 row4">
+<div class="part">
+  <div class="col-md-2 col-md-push-2">
+    <div class="losange losange1">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive" />
+        <div class="layout">
+          <p>theme parties</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-push-1 col-md-2 col-md-push-2">
+    <div class="losange losange2">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive" />
+        <div class="layout">
+          <p>team outings</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-2 col-md-push-2">
+    <div class="losange losange3">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive" />
+        <div class="layout">
+          <p>exhibitions</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-push-1 col-md-2 col-md-push-2"> 
+    <div class="losange losange4">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive" />
+        <div class="layout">
+          <p>Nagashree</p>
+        </div>
+      </div>
+    </div>
+     </div>
+</div>
+ </div>
+
+
+ <div class="row row1 row5">
+<div class="part">
+  <div class="col-md-2 col-md-push-3">
+    <div class="losange losange1">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive"/>
+        <div class="layout">
+            <p>Nagashree</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-push-1 col-md-2 col-md-push-3">
+    <div class="losange losange2">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive"/>
+        <div class="layout">
+            <p>Nagashree</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-2 col-md-push-3">
+    <div class="losange losange3">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive" />
+        <div class="layout">
+            <p>Nagashree</p>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+ </div>
+
+<div class="row row2 row6">
+<div class="part">
+  <!-- <div class="col-md-2 col-md-push-4">
+    <div class="losange losange1">
+      <div class="los1">
+        <img src="http://farm3.staticflickr.com/2178/3531465579_8bff044e9b_z.jpg?zz=1" alt="" class="img-responsive" />
+        <div class="layout">
+          <p>Nagashree</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="col-sm-push-1 col-md-2 col-md-push-4">
+    <div class="losange losange2">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive" />
+        <div class="layout">
+          <p>Nagashree</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-2 col-md-push-4">
+    <div class="losange losange3">
+      <div class="los1">
+        <img src="images/services-1.jpg" alt="" class="img-responsive" />
+        <div class="layout">
+          <p>Nagashree</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- <div class="col-md-2 col-md-push-2"> 
+    <div class="losange losange4">
+      <div class="los1">
+        <img src="http://farm3.staticflickr.com/2178/3531465579_8bff044e9b_z.jpg?zz=1" alt="" class="img-responsive" />
+        <div class="layout">
+          <p>Nagashree</p>
+        </div>
+      </div>
+    </div>
+     </div> -->
+</div>
+ </div>
+
+
+</div>
+
+ </div>
+ <!-- <div class="diamond container" style="background-color: #000"> 
+<div class="row row1">
+<div class="part">
+  <div class="col-md-2 col-md-push-2">
+    <div class="losange losange1">
+      <div class="los1">
+        <img src="http://farm3.staticflickr.com/2178/3531465579_8bff044e9b_z.jpg?zz=1" alt="" class="img-responsive"/>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2 col-md-push-2">
+    <div class="losange losange2">
+      <div class="los1">
+        <img src="http://farm3.staticflickr.com/2178/3531465579_8bff044e9b_z.jpg?zz=1" alt="" class="img-responsive"/>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-2 col-md-push-2">
+    <div class="losange losange3">
+      <div class="los1">
+        <img src="http://farm3.staticflickr.com/2178/3531465579_8bff044e9b_z.jpg?zz=1" alt="" class="img-responsive" />
+      </div>
+    </div>
+    </div>
+</div>
+ </div>
+
+
+<div class="row row2">
+<div class="part">
+  <div class="col-md-2 col-md-push-1">
+    <div class="losange losange1">
+      <div class="los1">
+        <img src="http://farm3.staticflickr.com/2178/3531465579_8bff044e9b_z.jpg?zz=1" alt="" width="255" height="320" />
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2 col-md-push-1">
+    <div class="losange losange2">
+      <div class="los1">
+        <img src="http://farm3.staticflickr.com/2178/3531465579_8bff044e9b_z.jpg?zz=1" alt="" width="255" height="320" />
+      </div>
+    </div>
+    </div>
+    <div class="col-md-2 col-md-push-1">
+    <div class="losange losange3">
+      <div class="los1">
+        <img src="http://farm3.staticflickr.com/2178/3531465579_8bff044e9b_z.jpg?zz=1" alt="" width="255" height="320" />
+      </div>
+    </div>
+    </div>
+    <div class="col-md-2 col-md-push-1"> 
+    <div class="losange losange4">
+      <div class="los1">
+        <img src="http://farm3.staticflickr.com/2178/3531465579_8bff044e9b_z.jpg?zz=1" alt="" width="255" height="320" />
+      </div>
+    </div>
+     </div>
+</div>
+ </div>
+</div>
+ -->
+
+
+<script>
+$(document).ready(function(){
+  $(".business").click(function(){
+    $(".hiddenlinks").slideToggle();
+  });
+});
+</script>
+
+
+    <div id="expand">
+
+<a href="javascript://" class="business" >123</a>
+    <div class="hiddenlinks">
+         <a href="/"target="_blank" class="business" style="color:#f36523">ABC</a><br />
+         <a href="/"target="_blank" class="business" style="color:#f36523">DEF</a><br />
+         <a href="/"target="_blank" class="business" style="color:#f36523">HIJ</a>
+    </div>
+ </div>
+
+
+
+
+
+
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/filter.js"></script>
+</body>
+
+</html>
